@@ -117,7 +117,7 @@ if __name__ == '__main__':
 
     time.sleep(3)
 
-    a.digital_write(PIN,0) # turn LED on - 0 = LOW
+    a.digital_write(PIN,0) # turn LED off - 0 = LOW
     print(a.digital_read(PIN))
         
     a.close()
