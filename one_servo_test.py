@@ -11,7 +11,9 @@ if __name__ == '__main__':
     time.sleep(3)    
 
     # declare the pin our servo is attached to
-    PIN = 2
+    # make sure this matches line 26 of one_servo.ino
+    # the line that says: int SERVO2_PIN = 2;
+    PIN = 2         
 
     try:
         for i in range(0,1000):
