@@ -53,7 +53,7 @@ void loop() {
     if (Serial.available() > 0) 
     {
         // parse information
-        // courtesy of lekum 
+        // courtesy of https://github.com/lekum/pyduino
         operation = Serial.read();
         delay(wait_for_transmission); // If not delayed, second character is not correctly read
         mode = Serial.read();
