@@ -1,12 +1,6 @@
 /*
- * Sketch to control the pins of Arduino via serial interface
+ * Sketch to control the servo pins of Arduino via serial interface
  *
- * Commands implemented with examples:
- *
- * - RD13 -> Reads the Digital input at pin 13
- * - RA4 - > Reads the Analog input at pin 4
- * - WD13:1 -> Writes 1 (HIGH) to digital output pin 13
- * - WA6:125 -> Writes 125 to analog output pin 6 (PWM)
  */
 
 #include <Servo.h>
